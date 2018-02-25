@@ -2,7 +2,7 @@
 
 This repository's purpose is to gather all OS related automation and management scripts
 
-# Linux (Ubuntu)
+### Linux (Ubuntu)
 
 For power autage mining restart automation the following locations hold modified/created scripts:
 
