@@ -14,4 +14,4 @@ This file will be executed after system restart and thus holds the initial start
 ```
 /usr/local/bin
 ```
-Under this folder all ming binarys are located. Subfolder hold automation related scripts.
+Under this folder all minig binarys are located. Subfolder hold automation related scripts.
