@@ -1,5 +1,5 @@
 #!/bin/bash
-# file name: startManageMultiAlgo.sh
+# file name: startManageX17.sh
 
 NAME=x17VergeSuprnova
 # open persistance mode on all GPUs and setting all GPU power limiti to 230 Watt
