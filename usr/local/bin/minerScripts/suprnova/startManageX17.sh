@@ -5,6 +5,7 @@ NAME=x17VergeSuprnova
 # open persistance mode on all GPUs and setting all GPU power limiti to 230 Watt
 /usr/local/bin/scripts/prepareGpus.sh 190
 # setting power limit for gpu 0 to 210 watt. That one gets hot the most
+nvidia-smi -i 4 -pl 185
 nvidia-smi -i 6 -pl 180
 nvidia-smi -i 7 -pl 180
 sleep 10
