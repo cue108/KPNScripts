@@ -1,0 +1,10 @@
+/logs/x17*.log {
+        daily
+	missingok
+        copytruncate
+        create 644 root root
+        dateext
+        rotate 10
+        compress
+	maxage 100
+}
