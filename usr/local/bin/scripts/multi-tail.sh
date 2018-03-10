@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# When this exits, exit all back ground process also.
+# When this exits kill all back ground process also.
 trap 'kill $(jobs -p)' EXIT
 #trap 'killall tail' EXIT
 
-# iterate through the each given file names,
+# iterate through each given file names
 for file in "$@"
 do
 	# show tails of each in background.
