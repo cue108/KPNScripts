@@ -25,18 +25,43 @@ do
 			if [ ${#processOnGPU[@]} -gt 0  ]
 				then
 				# special GPU id related actions go here
-				if [ $id == 6 ] 
-					then
-					echo special action for GPU id $id
-					nvidia-smi -i $id -pl 180
-					#continue
-				fi
-				if [ $id == 7 ] 
-					then
-					echo special action for GPU id $id
-					nvidia-smi -i $id -pl 180
-					#continue
-				fi				
+				if [ $id == 5 ] 
+                                        then
+                                        echo special action for GPU id $id
+                                        nvidia-smi -i $id -pl 175
+                                        #continue
+                                fi
+                                # special GPU id related actions go here
+                                if [ $id == 6 ] 
+                                        then
+                                        echo special action for GPU id $id
+                                        nvidia-smi -i $id -pl 185
+                                        #continue
+                                fi
+                                if [ $id == 7 ] 
+                                        then
+                                        echo special action for GPU id $id
+                                        nvidia-smi -i $id -pl 185
+                                        #continue
+                                fi
+                                if [ $id == 8 ] 
+                                        then
+                                        echo special action for GPU id $id
+                                        nvidia-smi -i $id -pl 185
+                                        #continue
+                                fi
+                                if [ $id == 9 ] 
+                                        then
+                                        echo special action for GPU id $id
+                                        nvidia-smi -i $id -pl 185
+                                        #continue
+                                fi
+                                if [ $id == 10 ] 
+                                        then
+                                        echo special action for GPU id $id
+                                        nvidia-smi -i $id -pl 170
+                                        #continue
+                                fi
 				# default GPU id related actions go here
 				/usr/local/bin/scripts/screen.sh $ProcessAndLogPrefix-GPU-$id \
 				"/usr/local/bin/alexis78ccminer \
@@ -45,8 +70,6 @@ do
 				-o stratum+tcp://xvg-x17.suprnova.cc:7477 \
 				-u hans23.GPU$id \
 				-p yeshe \
-				--api-bind=0.0.0.0:400$id \
-				--api-remote \
 				--max-temp=79"				
 				sleep 2
 			else
