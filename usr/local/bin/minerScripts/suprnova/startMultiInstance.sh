@@ -40,7 +40,6 @@ do
                                 if [ $id == 6 ] 
                                         then
                                         echo special action for GPU id $id
-                                        nvidia-smi -i $id -pl 185
                                         #continue
                                 fi
 				# default GPU id related actions go here
