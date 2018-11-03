@@ -8,7 +8,7 @@ trap 'kill $(jobs -p)' EXIT
 for file in "$@"
 do
 	# show tails of each in background.
-	tail -f $file &
+	tail -f $file | nl -s"^${file}>  " &
 done
 
 # wait .. until CTRL+C
