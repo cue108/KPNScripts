@@ -4,7 +4,7 @@
 
 ### Linux (Ubuntu)
 
-For power autage mining restart automation the following locations hold modified/created scripts:
+#### For power autage mining restart automation the following locations hold modified/created scripts:
 
 ```
 /etc/rc.local
