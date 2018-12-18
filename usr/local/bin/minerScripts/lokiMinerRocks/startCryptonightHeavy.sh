@@ -1,0 +1,1 @@
+/usr/local/bin/xmr-stak  --noCPU --currency cryptonight_heavy -i 10823 -o loki.miner.rocks:5555 -u LX4dbzgi2GhdGG5JCo4GRhNNuuvPMCFuE1NUBi2VNUR8gW75PmwsSzWY2Py17VjDpxCC6WpbQLxpKbLSBu9Vn6YXB52UqYn -p w=rig1 
