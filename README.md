@@ -1,6 +1,6 @@
 # KPNScripts
 
-This repository's purpose is to gather all OS related automation and management scripts
+## This repository's purpose is to gather all OS related automation and management scripts
 
 ### Linux (Ubuntu)
 
